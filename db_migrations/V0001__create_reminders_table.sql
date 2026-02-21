@@ -1,0 +1,10 @@
+CREATE TABLE t_p37647051_tg_bot_creation_2.reminders (
+    id BIGSERIAL PRIMARY KEY,
+    chat_id BIGINT NOT NULL,
+    text TEXT NOT NULL,
+    remind_at TIMESTAMP NOT NULL,
+    repeat VARCHAR(10) NOT NULL DEFAULT 'once',
+    done BOOLEAN NOT NULL DEFAULT FALSE,
+    sent BOOLEAN NOT NULL DEFAULT FALSE,
+    created_at TIMESTAMP NOT NULL DEFAULT NOW()
+);

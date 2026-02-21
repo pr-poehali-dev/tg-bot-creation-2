@@ -1,0 +1,10 @@
+{
+  "tests": [
+    {
+      "name": "GET — запуск планировщика",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 500
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "tests": [
+    {
+      "name": "GET без chat_id — ошибка",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 400
+    },
+    {
+      "name": "OPTIONS CORS",
+      "method": "OPTIONS",
+      "path": "/",
+      "expectedStatus": 200
+    }
+  ]
+}
